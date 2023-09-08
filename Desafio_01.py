@@ -3,15 +3,20 @@
 
 # obs:Utilize apenas a estrutura condicional IF.
 
+# input de valores
 
 num1 = float(input('Insira o 1° número:'))
 num2 = float(input('Insira o 2° número:'))
 num3 = float(input('Insira o 3° número:'))
 num4 = float(input('Insira o 4° número:'))
 num5 = float(input('Insira o 5° número:'))
+
+# input da escolha
 ordenarRegistros = input('Crescente (C) ou Decrescente (D): ').upper()
 print(ordenarRegistros)
+
 # primeiro sendo o maior
+
 if ordenarRegistros == 'D':
     if num1 > num2 and num1 > num3 and num1 > num4 and num1 > num5:
         if num2 > num3 and num2 > num4 and num2 > num5:
